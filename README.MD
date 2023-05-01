@@ -46,7 +46,7 @@ Leia o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para saber detalhes sobre o no
 
 # Autores
 
-[Exemplo](https://github.com/Elias-Lima-code)
+[Elias Lima](https://github.com/Elias-Lima-code)
 
 # Licença
 
