@@ -1,20 +1,19 @@
 # Projeto Dual Autopass
 
 
-![Capa do Projeto](https://picsum.photos/850/280)
+<img src="https://user-images.githubusercontent.com/85772380/235499691-9104065f-93ec-4c20-b940-2887e34d8ea6.png" alt="Capa do Projeto autopass" width = 100%>
+
+
 
 # Sobre o Projeto
 
-Projeto consiste na reformulação do programa autopass criado para compra de bilhetes únicos em São Paulo
+Projeto consiste na reformulação do programa dos atms de autopass criado para compra de bilhetes únicos em São Paulo.
 
-<h4 align="center"> 
-	🚧  Em desenvolvimento . . .
-</h4>
 
 # Índice/Sumário
 
 * [Sobre](#sobre-o-projeto)
-* [Sumário](#índice/sumário)
+* [Sumário](#índicesumário)
 * [Requisitos Funcionais](#requisitos-funcionais)
 * [Tecnologias Usadas](#tecnologias-usadas)
 * [Contribuição](#contribuição)
@@ -46,7 +45,9 @@ Leia o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para saber detalhes sobre o no
 
 # Autores
 
-[Elias Lima](https://github.com/Elias-Lima-code)
+| [<img src="https://avatars.githubusercontent.com/u/85772380?v=4" width=115><br><sub>Elias Lima</sub>](https://github.com/Elias-Lima-code) |  [<img src="https://png.pngtree.com/png-clipart/20190520/original/pngtree-vector-question-mark-icon-png-image_4277300.jpg" width=115><br><sub></sub>]() |  [<img src="https://png.pngtree.com/png-clipart/20190520/original/pngtree-vector-question-mark-icon-png-image_4277300.jpg" width=115><br><sub></sub>]() |
+| :---: | :---: | :---: |
+
 
 # Licença
 
