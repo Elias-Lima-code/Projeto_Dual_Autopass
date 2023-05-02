@@ -45,7 +45,7 @@ Leia o arquivo [CONTRIBUTING.md](CONTRIBUTING.MD) para saber detalhes sobre o no
 
 # Autores
 
-| [<img src="https://avatars.githubusercontent.com/u/85772380?v=4" width=115><br><sub>Elias Lima</sub>](https://github.com/Elias-Lima-code) |  [<img src="https://avatars.githubusercontent.com/u/132309064?v=4" width=115><br><sub>Gustavo Pacheco</sub>]() |  [<img src="https://avatars.githubusercontent.com/u/129804700?v=4" width=115><br><sub>Andreinel</sub>]()|[<img src="https://avatars.githubusercontent.com/u/96671514?v=4" width=115><br><sub>Gabriel Moura</sub>]() | [<img src="https://avatars.githubusercontent.com/u/132314110?v=4" width=115><br><sub>Lincoln</sub>]()| [<img src="https://avatars.githubusercontent.com/u/110207553?v=4" width=115><br><sub>Lincoln</sub>]()
+| [<img src="https://avatars.githubusercontent.com/u/85772380?v=4" width=115><br><sub>Elias Lima</sub>](https://github.com/Elias-Lima-code) |  [<img src="https://avatars.githubusercontent.com/u/132309064?v=4" width=115><br><sub>Gustavo Pacheco</sub>]() |  [<img src="https://avatars.githubusercontent.com/u/129804700?v=4" width=115><br><sub>Andreinel</sub>]()|[<img src="https://avatars.githubusercontent.com/u/96671514?v=4" width=115><br><sub>Gabriel Moura</sub>]() | [<img src="https://avatars.githubusercontent.com/u/132314110?v=4" width=115><br><sub>Lincoln</sub>]()| [<img src="https://avatars.githubusercontent.com/u/110207553?v=4" width=115><br><sub>Carlos Camape</sub>]()
 | :---: | :---: | :---: | :---: | :---: | :---: |
 
 
