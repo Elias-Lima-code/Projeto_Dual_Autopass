@@ -25,8 +25,8 @@ Projeto consiste na reformulação do programa dos atms de autopass criado para 
 # Requisitos Funcionais 
 
 - [x] Fluxo do Usuário
-- [ ] Personas
-- [ ] Cenários
+- [x] Personas
+- [x] Cenários
 - [ ] Protótipo lo-fi
 - [ ] Protótipo hi-fi
 - [ ] Relatório
