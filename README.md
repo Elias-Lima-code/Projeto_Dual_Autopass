@@ -29,8 +29,8 @@ https://www.youtube.com/watch?v=m8ndXeqWGGE
 - [x] Fluxo do Usuário
 - [x] Personas
 - [x] Cenários
-- [ ] Protótipo lo-fi
-- [ ] Protótipo hi-fi
+- [x] Protótipo lo-fi
+- [x] Protótipo hi-fi
 - [ ] Relatório
 - [ ] Aplicação Web
 - [ ] Vídeo 
