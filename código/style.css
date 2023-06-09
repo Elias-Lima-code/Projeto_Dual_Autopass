@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.welcome {
+    padding: 0px;
+    color: rgb(255, 255, 253);
+}
+
+
+.BG-Container2 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+
+.holder_btns {
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    gap: 30px;
+}
+
+.m_botao {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border: none;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font: 35px bold;
+    text-decoration: none;
+}
+
+#btn1 {
+    background-image: url('/código/assets/imgs/cartão_top.png');
+}
+
+#btn1:hover {
+    background-color: rgb(11, 193, 210);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+#btn2 {
+    background-image: url('/código/assets/imgs/qrcode_menu.png');
+}
+
+#btn2:hover {
+    background-color: rgb(11, 193, 210);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+#btn3 {
+    background-image: url('/código/assets/imgs/Bilhete_Unico_menu.png');
+}
+
+#btn3:hover {
+    background-color: rgb(11, 193, 210);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.BG-Container3 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.basecontainer {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    grid-gap: 180px;
+}
+
+#text_base {
+    color: white;
+    font-size: 15px;
+}
+
+#btn4 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#btn4:hover {
+    background-color: rgb(11, 193, 210);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+/* ------------------TIPO RECARGA---------------------- */
+
+#btn_comum_r {
+    width: 250px;
+    height: 250px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(11, 193, 210);
+    justify-content: center;
+    color: white;
+    font: 35px bold;
+    text-decoration: none;
+}
+
+#btn_comum_r:hover {
+    background-color: rgb(4, 66, 71);
+    border: 2px solid rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+#title_btn_text {
+    color: white;
+    font-size: 45px;
+    font: bold;
+    text-align: center;
+}
+
+#text_titleinside_btn_t {
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+#text_saldoinside_btn_t {
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+#text_inside_btn_t {
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+#basecontainer_tiporecarga {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+
+    align-items: center;
+}
+
+#voltarmargin {
+    margin-right: 800px;
+}
+
+
+#btn_voltar {
+    display: inline-block;
+    height: 50px;
+    width: 150px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(11, 193, 210);
+    align-items: center;
+}
+
+#btn_voltar:hover {
+    background-color: rgb(11, 193, 210);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+/* ------------------Forma de pagamento---------------------- */
+
+#btn_dinheiro_p {
+    width: 250px;
+    height: 250px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(11, 193, 210);
+    justify-content: center;
+    color: white;
+    font: 35px bold;
+    text-decoration: none;
+
+    background-repeat: no-repeat;
+    background-size: 70%;
+    align-items: center;
+}
+
+#btn_dinheiro_p:hover {
+    background-color: rgb(4, 66, 71);
+    border: 2px solid rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+#title_btn_text {
+    color: white;
+    font-size: 45px;
+    font: bold;
+    text-align: center;
+}
+
+#img_icon_din {
+    display: flex;
+    height: 50%;
+    margin-left: 20%;
+}
+
+#img_icon_deb {
+    height: 50%;
+    margin-left: 25%;
+}
+
+#btn_debito_p {
+    width: 250px;
+    height: 250px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(11, 193, 210);
+    justify-content: center;
+    color: white;
+    font: 35px bold;
+    text-decoration: none;
+}
+
+#btn_debito_p:hover {
+    background-color: rgb(4, 66, 71);
+    border: 2px solid rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+#title_btn_text {
+    color: white;
+    font-size: 45px;
+    font: bold;
+    text-align: center;
+}
+
+/* ------------------Opção pagamento débito---------------------- */
+
+#btn_info_pre {
+    width: 190px;
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(11, 193, 210);
+    color: white;
+    font: 35px bold;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn_dinheiro_p:hover {
+    background-color: rgb(4, 66, 71);
+    border: 2px solid rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+#title_btn_text_deb {
+    color: white;
+    font-size: 45px;
+    font: bold;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.holder_modal {
+    display: flex;
+    flex-direction: 1;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.modal {
+    visibility: hidden;
+    position: absolute;
+    width: 45%;
+    height: 70%;
+    margin-top: 10%;
+    margin-left: 27%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.0);
+    transition: all 0.4s;
+}
+
+.modal:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal_content {
+    border-radius: 4px;
+    position: relative;
+    width: 800px;
+    height: 65%;
+    max-width: 100%;
+    background: #fff;
+    padding: 2em 2em;
+    justify-content: center;
+}
+
+
+#text_in_modal_valor_confirmar{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.modal__close {
+    text-align: right;
+    margin-top: 50px;
+    position: absolute;
+    top: -65px;
+    right: 10px;
+    font-size: 40px;
+    color: #ff0000;
+    text-decoration: none;
+}
+
+.modal__footer-btn-sim {
+    width: 15%;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #cfcca8;
+    color: #000000;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.modal__footer-btn-nao {
+    width: 15%;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #cfcca8;
+    color: #000000;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.modal_footer {
+    display: flex;
+    margin-top: 80px;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
