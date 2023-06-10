@@ -22,8 +22,9 @@
             <div class="row justify-content-center">
                 <div class="welcome col-md-8 text-center">
                     <div class="message">
-                        <h1 class="msgWelcome" id="msgWelcome">ESCOLHA O TIPO DE RECARGA</h1>
+                        <h1 class="msgWelcome" id="msgWelcome">DIGITE SUA SENHA</h1>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -31,27 +32,32 @@
 
     <div class="BG-Container2">
         <div class="container">
-            <div class="holder_btns">
-                <a type="button" class="t_botao" id="btn_comum_r" href="/código/forma_pagamento.html">
-                    <h2 id="title_btn_text">Comum</h2>
-                    <p id="text_titleinside_btn_t">
-                        Informações:
-                    </p>
-                    <p id="text_saldoinside_btn_t">
-                        Saldo: R$: 0,00
-                    </p>
-                    <p id="text_inside_btn_t">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    </p>
-                </a>
+            <div class="painel_senha">
+                <div class="display">
+                    <label id="senha-label"></label>
+                </div>
+                <div class="teclado">
+                    <button class="numero" onclick="adicionarNumero(1)">1</button>
+                    <button class="numero" onclick="adicionarNumero(2)">2</button>
+                    <button class="numero" onclick="adicionarNumero(3)">3</button>
+                    <button class="numero" onclick="adicionarNumero(4)">4</button>
+                    <button class="numero" onclick="adicionarNumero(5)">5</button>
+                    <button class="numero" onclick="adicionarNumero(6)">6</button>
+                    <button class="numero" onclick="adicionarNumero(7)">7</button>
+                    <button class="numero" onclick="adicionarNumero(8)">8</button>
+                    <button class="numero" onclick="adicionarNumero(9)">9</button>
+                    <button class="numero" onclick="adicionarNumero(0)">0</button>
+                    <button class="limpar" onclick="limparSenha()">Limpar</button>
+                    <button class="confirmar" onclick="confirma_senha()">Confirmar</button>
+                </div>
             </div>
         </div>
     </div>
 
     <div class="BG-Container3" id="basecontainer_tiporecarga">
         <div class="basecontainer" id="voltarmargin">
-            <a href="/código/index.html"> 
-                <button type="button" class="botao" id="btn_voltar">Voltar</button>
+            <a href="opcao_sel_debito.html">
+                <button type="button" class="botao" id="btn_voltar">Cancelar</button>
             </a>
         </div>
     </div>
