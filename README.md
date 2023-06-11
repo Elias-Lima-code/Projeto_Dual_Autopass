@@ -32,7 +32,7 @@ https://www.youtube.com/watch?v=m8ndXeqWGGE
 - [x] Protótipo lo-fi
 - [x] Protótipo hi-fi
 - [x] Relatório
-- [ ] Aplicação Web
+- [x] Aplicação Web
 - [ ] Vídeo 
 
 # Tecnologias Usadas
