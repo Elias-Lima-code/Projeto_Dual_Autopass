@@ -207,6 +207,32 @@ body {
     transition: 0.5s;
 }
 
+#btn_concluir {
+    display: inline-block;
+    position: absolute;
+    top: 85%;
+    left: 42%;
+    height: 50px;
+    width: 250px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(11, 193, 210);
+    align-items: center;
+}
+
+#btn_concluir:hover {
+    background-color: rgb(11, 193, 210);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
 /* ------------------Forma de pagamento---------------------- */
 
 #btn_dinheiro_p {
@@ -339,6 +365,18 @@ body {
     background: #fff;
     padding: 2em 2em;
     justify-content: center;
+}
+
+.modal_content_aceito {
+    border-radius: 4px;
+    position: relative;
+    width: 800px;
+    height: 65%;
+    max-width: 100%;
+    background: #fff;
+    padding: 2em 0em;
+    justify-content: center;
+    text-align: center;
 }
 
 
@@ -685,4 +723,121 @@ body {
     height: 60px;
     font-size: 16px;
     background-color: rgb(11, 193, 210);
+}
+
+/* -----------------Tela de saldo-------------------------*/
+.holder_rec {
+    display: grid;
+    gap: 2px;
+    justify-items: center;
+}
+
+.retangulo_one {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: rgb(11, 193, 210);
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.texto_rec_one {
+
+    font-size: 16px;
+    text-align: center;
+}
+
+.retangulo_two {
+    display: flex;
+    width: 450px;
+    height: 100px;
+    background-color: rgb(11, 193, 210);
+    border: 1px solid white;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.texto_top,
+.texto_bot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.espace_bet {
+    width: 250px;
+}
+
+.espace_bet_2 {
+    width: 310px;
+}
+
+
+.texto_rec_two {
+    color: white;
+    font-size: 16px;
+
+}
+
+/* -----------------Tela de qe_op_compras-------------------------*/
+
+.holder_btm_qr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 10px;
+    gap: 15px;
+}
+
+#btn_qr_pre {
+    display: flex;
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(11, 193, 210);
+    justify-content: center;
+    color: white;
+    font: 35px bold;
+    text-decoration: none;
+    align-items: center;
+
+}
+
+#btn_qr_pre:hover {
+    background-color: rgb(2, 98, 107);
+    border: 2px solid rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+#title_btn_text_qr_pre {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.text_aviso_debito{
+    display: flex;
+    position: relative;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    right: 75px;
+    bottom: 15px;
+}
+
+/* -----------------Tela consulta qrcode-------------------------*/
+.holder_img_qr_code{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
 }

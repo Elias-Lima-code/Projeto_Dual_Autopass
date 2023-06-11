@@ -22,8 +22,9 @@
             <div class="row justify-content-center">
                 <div class="welcome col-md-8 text-center">
                     <div class="message">
-                        <h1 class="msgWelcome" id="msgWelcome">ESCOLHA A FORMA DE PAGAMENTO</h1>
+                        <h1 class="msgWelcome" id="msgWelcome">CONSULTAR QR-CODE</h1>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -31,24 +32,40 @@
 
     <div class="BG-Container2">
         <div class="container">
-            <div class="holder_btns">
-                <a type="button" class="t_botao" id="btn_dinheiro_p" href="opcao_sel_dinheiro.html">
-                    <h2 id="title_btn_text">Dinheiro</h2>
-                    <p id="icon_imgs"></p>        
-                    <img id="img_icon_din" src="/código/assets/imgs/dinheiro-icone.png" alt="icon_dinheiro"/>
-                </a>
-                <a type="button" class="t_botao" id="btn_debito_p" href="opcao_sel_debito.html">
-                    <h2 id="title_btn_text">Débito</h2>    
-                    <img id="img_icon_deb" src="/código/assets/imgs/debito_card.png" alt="icon_débito"/>  
+            <div class="holder_img_qr_code">
+                <p>Aponte seu QRcode para o leitor do equipamento</p>
+                <a href="#modal_valor_aceito">
+                    <img src="/código/assets/imgs/qrcodecompra.png" alt="icon_qr_code">
                 </a>
             </div>
+
+            <div class="holder_modal">
+
+                <div id="modal_valor_aceito" class="modal">
+                    <div class="modal_content_aceito">
+                        <a href="#" class="modal__close">&times;</a>
+                        <h1>QR-CODE VÁLIDO</h1>
+
+                        <p id="text_in_modal_valor_confirmar">
+                            Lorem Ipsum Generator Generate 
+                        </p>
+
+                        <div class="modal_footer">
+                            <a href="#" class="modal__footer-btn-sim"> Voltar </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </div>
+
+    </div>
     </div>
 
     <div class="BG-Container3" id="basecontainer_tiporecarga">
         <div class="basecontainer" id="voltarmargin">
-            <a href="tipo_recarga.html"> 
-                <button type="button" class="botao" id="btn_voltar">Voltar</button>
+            <a href="index.html">
+                <button type="button" class="botao" id="btn_voltar">Cancelar</button>
             </a>
         </div>
     </div>

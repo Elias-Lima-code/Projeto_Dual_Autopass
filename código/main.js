@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
       setTimeout(function () {
         var loadingContainer = document.querySelector(".loading-container");
         loadingContainer.style.display = "none";
-        window.location.href = "insira_cartão_deb.html";
+        window.location.href = "insira_cartao_deb.html";
       }, 260);
     }
   }, 1000);
@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
       setTimeout(function () {
         var loadingContainer = document.querySelector(".loading-containe");
         loadingContainer.style.display = "none";
-        window.location.href = "tipo_recarga.html";
+        window.location.href = "transacao_aprovada.html";
       }, 260);
     }
   }, 1000);
