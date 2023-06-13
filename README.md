@@ -7,7 +7,7 @@
 
 # Sobre o Projeto
 
-Projeto consiste na reformulação do programa dos atms de autopass criado para compra de bilhetes únicos recargas no cartão top e compra de bilhetes Qrcodes em São Paulo, o projeto foi passado pelos professores de Usabilidade e desenvolvimento web da Universidade Una.
+Projeto consiste na redesing do programa dos atms do autopass criado para compra de bilhetes únicos recargas no cartão top e compra de bilhetes Qrcodes em São Paulo, o projeto foi passado pelos professores de Usabilidade e desenvolvimento web da Universidade Una.
 
 Para mais informações sobre o projeto acesse link abaixo:
 https://www.youtube.com/watch?v=m8ndXeqWGGE
@@ -33,13 +33,14 @@ https://www.youtube.com/watch?v=m8ndXeqWGGE
 - [x] Protótipo hi-fi
 - [x] Relatório
 - [x] Aplicação Web
-- [ ] Vídeo 
+- [x] Vídeo 
 
 # Tecnologias Usadas
 
 - [Figma](https://www.figma.com/)
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 # Contribuição
 
